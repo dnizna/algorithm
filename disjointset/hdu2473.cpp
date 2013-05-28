@@ -22,11 +22,11 @@ int root(int x)
 int main()
 {
   int test = 1;
-  while(scanf("%d%d", &n, &m) != EOF)
+  while(scanf("%d%d", &n, &m) != EOF) 
   {
-    if(n == 0 && m == 0) break;
+    if(n == 0 && m == 0) return 0;
     cnt = n;
-    for(int i = 0; i < N; ++i)
+    for(int i = 0; i <= n + m; ++i)
     {
       parent[i] = index[i] = i;
       flag[i] = 0;
