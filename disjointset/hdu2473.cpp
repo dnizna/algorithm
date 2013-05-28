@@ -1,3 +1,4 @@
+// http://acm.hdu.edu.cn/showproblem.php?pid=2473
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,4 @@
+// http://poj.org/problem?id=1182
 #include <stdio.h>
 #include <stdlib.h>
 
